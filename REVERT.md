@@ -1,6 +1,6 @@
 ### Neden ?​
 
-Hem forumlarda hem de diğer platformlarda sıkça sorulduğu için ve bununla birlikte Discord yasağının kaldırılması gündemde olduğu için **[GoodbyeDPI-Turkey](https://github.com/cagritaskn/GoodbyeDPI-Turkey)**'i sisteminizden nasıl kaldıracağınızı anlatıyorum.  
+Hem forumlarda hem de diğer platformlarda sıkça sorulduğu için ve bununla birlikte Discord yasağının kaldırılması gündemde olduğu için **MushroomDpi**'yi sisteminizden nasıl kaldıracağınızı anlatıyorum.  
   
 
 ### GoodbyeDPI-Turkey Ayarlarımı Değiştirir Mi ?​

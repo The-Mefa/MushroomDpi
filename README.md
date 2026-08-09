@@ -7,7 +7,7 @@
 
 Türkiye'deki bazı internet servis sağlayıcılarının uyguladığı DPI (Derin Paket İnceleme) engellemelerini VPN kullanmadan aşmak için geliştirilmiş bir araç. Discord ve DPI ile engellenen benzer site/uygulamalara erişimi, internet hızında bir yavaşlamaya sebep olmadan sağlar.
 
-Bu proje, **Mefa** tarafından [GoodbyeDPI-Turkey](https://github.com/cagritaskn/GoodbyeDPI-Turkey) temel alınarak düzenlenmiştir. GoodbyeDPI-Turkey de kendisi orijinal [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) projesinin bir fork'udur. Bu araç kesinlikle bir VPN değildir; paket seviyesinde DPI'yi kandırma tekniği kullanır.
+Bu proje, **Mefa** tarafından orijinal [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) projesi temel alınarak geliştirilmiş ve tamamen Türkçeleştirilmiştir. Bu araç kesinlikle bir VPN değildir; paket seviyesinde DPI'yi kandırma tekniği kullanır.
 
 > [!NOTE]
 > Windows 7, 8, 8.1, 10 veya 11'de **yönetici olarak çalıştırmanız** gerekir.
@@ -49,7 +49,7 @@ Bu araç, `WinDivert.dll` ve `WinDivert64.sys` adlı açık kaynaklı bir Window
 
 ## Katkı ve Lisans
 
-Bu proje [Apache 2.0](LICENSE) lisansı altında dağıtılmaktadır, orijinal [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) ve [GoodbyeDPI-Turkey](https://github.com/cagritaskn/GoodbyeDPI-Turkey) projelerine ve geliştiricilerine teşekkürler.
+Bu proje [Apache 2.0](LICENSE) lisansı altında dağıtılmaktadır, orijinal [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI) projesine ve geliştiricisine teşekkürler.
 
 ## Yasal Uyarı
 
