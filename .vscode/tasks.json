@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "GoodbyeDPI: Derle (x64)",
+      "label": "MushroomDpi: Derle (x64)",
       "type": "shell",
       "command": "C:\\msys64\\usr\\bin\\bash.exe",
       "args": [
@@ -19,7 +19,7 @@
       "problemMatcher": ["$gcc"]
     },
     {
-      "label": "GoodbyeDPI: Temizle",
+      "label": "MushroomDpi: Temizle",
       "type": "shell",
       "command": "C:\\msys64\\usr\\bin\\bash.exe",
       "args": ["-c", "export PATH=/usr/bin:/mingw64/bin:$PATH; make clean"],

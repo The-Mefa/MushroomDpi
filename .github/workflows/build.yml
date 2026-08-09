@@ -1,4 +1,4 @@
-name: Build GoodbyeDPI
+name: Build MushroomDpi
 
 on:
   push:
@@ -55,14 +55,14 @@ jobs:
 
       - name: Prepare x86_64 directory
         run: |
-          mkdir goodbyedpi_x86_64_${{ steps.vars.outputs.sha_short }}
-          cp src/goodbyedpi.exe ${{ env.WINDIVERT_BASENAME }}/x64/*.{dll,sys} goodbyedpi_x86_64_${{ steps.vars.outputs.sha_short }}
+          mkdir mushroomdpi_x86_64_${{ steps.vars.outputs.sha_short }}
+          cp src/MushroomDpi.exe ${{ env.WINDIVERT_BASENAME }}/x64/*.{dll,sys} mushroomdpi_x86_64_${{ steps.vars.outputs.sha_short }}
 
       - name: Upload output file x86_64
         uses: actions/upload-artifact@v4
         with:
-          name: goodbyedpi_x86_64_${{ steps.vars.outputs.sha_short }}
-          path: goodbyedpi_x86_64_${{ steps.vars.outputs.sha_short }}
+          name: mushroomdpi_x86_64_${{ steps.vars.outputs.sha_short }}
+          path: mushroomdpi_x86_64_${{ steps.vars.outputs.sha_short }}
 
       - name: Compile i686
         run: >
@@ -71,11 +71,11 @@ jobs:
 
       - name: Prepare x86 directory
         run: |
-          mkdir goodbyedpi_x86_${{ steps.vars.outputs.sha_short }}
-          cp src/goodbyedpi.exe ${{ env.WINDIVERT_BASENAME }}/x86/*.{dll,sys} goodbyedpi_x86_${{ steps.vars.outputs.sha_short }}
+          mkdir mushroomdpi_x86_${{ steps.vars.outputs.sha_short }}
+          cp src/MushroomDpi.exe ${{ env.WINDIVERT_BASENAME }}/x86/*.{dll,sys} mushroomdpi_x86_${{ steps.vars.outputs.sha_short }}
 
       - name: Upload output file x86
         uses: actions/upload-artifact@v4
         with:
-          name: goodbyedpi_x86_${{ steps.vars.outputs.sha_short }}
-          path: goodbyedpi_x86_${{ steps.vars.outputs.sha_short }}
+          name: mushroomdpi_x86_${{ steps.vars.outputs.sha_short }}
+          path: mushroomdpi_x86_${{ steps.vars.outputs.sha_short }}
