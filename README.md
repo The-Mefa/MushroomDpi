@@ -14,7 +14,9 @@ Bu proje, **Mefa** tarafından [GoodbyeDPI-Turkey](https://github.com/cagritaskn
 
 ## Kurulum ve Kullanım
 
-1. [Releases](https://github.com/The-Mefa/MushroomDpi/releases/latest) sayfasından en son sürümü indirin.
+**[⬇️ MushroomDpi.zip indir (v1.0.0)](https://github.com/The-Mefa/MushroomDpi/releases/download/v1.0.0/MushroomDpi.zip)**
+
+1. Yukarıdaki linkten veya [Releases](https://github.com/The-Mefa/MushroomDpi/releases/latest) sayfasından en son sürümü indirin.
 2. ZIP dosyasını istediğiniz bir klasöre çıkarın (klasörü daha sonra taşımayın).
 3. `MushroomDpi_Baslat.cmd` dosyasına çift tıklayın. Yönetici yetkisi istenirse **Evet** deyin.
 4. Konsol penceresi açık kaldığı sürece MushroomDpi çalışır durumda kalır.
