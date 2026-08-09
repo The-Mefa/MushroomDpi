@@ -1,0 +1,18 @@
+# Derleme çıktıları
+*.o
+*.exe
+*.dll
+*.sys
+*.aps
+
+# WinDivert SDK (ayrıca indirilir, repoya dahil edilmez)
+/WinDivert-*/
+WinDivert-*.zip
+
+# Dağıtım/çalıştırma klasörü (derlenmiş çıktılar burada birikir)
+/x86_64/
+/x86/
+
+# IDE / editör
+.vs/
+*.user

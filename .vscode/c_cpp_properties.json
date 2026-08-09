@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "MinGW64",
+      "includePath": [
+        "${workspaceFolder}/src/**",
+        "${workspaceFolder}/WinDivert-2.2.0-D/include"
+      ],
+      "defines": ["UNICODE", "_UNICODE"],
+      "compilerPath": "C:/msys64/mingw64/bin/x86_64-w64-mingw32-gcc.exe",
+      "cStandard": "c99",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}

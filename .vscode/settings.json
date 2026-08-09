@@ -1,0 +1,9 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "MSYS2 MINGW64": {
+      "path": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": ["-c", "export PATH=/usr/bin:/mingw64/bin:$PATH; export TMPDIR=/tmp TMP=/tmp TEMP=/tmp; mkdir -p /tmp; exec bash"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "MSYS2 MINGW64"
+}

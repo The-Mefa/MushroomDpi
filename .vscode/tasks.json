@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "GoodbyeDPI: Derle (x64)",
+      "type": "shell",
+      "command": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": [
+        "-c",
+        "export PATH=/usr/bin:/mingw64/bin:$PATH; export TMPDIR=/tmp TMP=/tmp TEMP=/tmp; mkdir -p /tmp; make CPREFIX=x86_64-w64-mingw32- BIT64=1 WINDIVERTHEADERS=../WinDivert-2.2.0-D/include WINDIVERTLIBS=../WinDivert-2.2.0-D/x64 CCWINDRES=windres -j4"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "GoodbyeDPI: Temizle",
+      "type": "shell",
+      "command": "C:\\msys64\\usr\\bin\\bash.exe",
+      "args": ["-c", "export PATH=/usr/bin:/mingw64/bin:$PATH; make clean"],
+      "options": {
+        "cwd": "${workspaceFolder}/src"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
