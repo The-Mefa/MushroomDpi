@@ -1141,7 +1141,6 @@ int main(int argc, char *argv[]) {
     if (max_payload_size)
         add_maxpayloadsize_str(max_payload_size);
     finalize_filter_strings();
-    puts("\nFiltre aciliyor");
     filter_num = 0;
 
     if (do_passivedpi) {
@@ -1180,7 +1179,6 @@ int main(int argc, char *argv[]) {
         printf("Debug Exit\n");
         exit(EXIT_SUCCESS);
     }
-    printf("Filtre etkinlestirildi, MushroomDpi su anda calisiyor!\n");
     signal(SIGINT, sigint_handler);
 
     while (1) {
